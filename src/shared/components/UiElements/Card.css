@@ -1,0 +1,47 @@
+.card {
+    position: relative;
+    margin: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    border-color: black;
+    padding: 1rem;
+    overflow: hidden;
+    background: white;
+  }
+
+  div{
+    border-radius: 5px;
+    border-color: black;
+  }
+  
+  .profile-card {
+    width: 90%;
+    max-width: 40rem;
+    margin: 7rem auto;
+    text-align: center;
+    text-decoration: double;
+    text-shadow: 20rem;
+    background-color: rgb(129, 138, 134);
+}
+
+.profile-card h2{
+  padding-top: 5%;
+  font-family:serif;
+}
+  
+.authentication {
+  width: 90%;
+  max-width: 40rem;
+  margin: 7rem auto;
+  text-align: center;
+  text-decoration: double;
+  text-shadow: 20rem;
+  background-color: rgb(129, 138, 134);
+}
+
+.authentication h2{
+  padding-top: 5%;
+  font-family:serif;
+}
+
+

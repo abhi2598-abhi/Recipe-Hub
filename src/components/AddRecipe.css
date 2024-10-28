@@ -1,0 +1,9 @@
+.addrecipe {
+    width: 90%;
+    max-width: 40rem;
+    margin: 7rem auto;
+    text-align: center;
+    text-decoration: double;
+    text-shadow: 20rem;
+    background-color: rgb(129, 138, 134);
+  }

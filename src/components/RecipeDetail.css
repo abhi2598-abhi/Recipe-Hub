@@ -1,0 +1,89 @@
+.recipe-detail__image {
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 2rem;
+  }
+
+
+
+  .recipe-detail__content {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background: #ffd900;
+    border-radius: 12px;
+    transition: background 0.3s, transform 0.3s;
+    overflow: hidden;
+  }
+
+  .recipe-detail__info {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+ 
+.rating {
+  margin-bottom: 20px;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s, transform 0.3s, text-shadow 0.3s;
+}
+
+.star:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
+  text-shadow: 0 0 10px rgba(255, 204, 0, 0.5); 
+}
+
+.star.filled {
+  color: #635310;
+  text-shadow: 0 0 10px rgba(255, 204, 0, 0.7); 
+}
+
+.star:active {
+  transform: scale(1.2); 
+}
+
+.comments-section {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem; 
+  margin: 2rem 0;
+}
+
+.comments-section h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.comments-section form {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem; 
+}
+
+.comments-section textarea {
+  width: 100%; 
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical; 
+}
+
+.comments-section Button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  align-self: flex-start; 
+}
+

@@ -1,0 +1,53 @@
+.admin-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    width: 100vw; 
+    gap: 1.5rem; 
+  }
+
+  .admin-page h1{
+    padding-top: 5rem;
+    font-size: 5rem;
+    color: #ffd900;
+    transition: color 0.3s;
+    font-family: serif;
+  }
+  
+  .link {
+    text-decoration: none;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; 
+    height: 300px; 
+    background: #292929;
+    border-radius: 12px;
+    transition: background 0.3s, transform 0.3s;
+    overflow: hidden;
+  }
+  
+  .card__content:hover,
+  .card__content:active {
+    background: #ffd900;
+    transform: scale(1.02);
+  }
+  
+  .card__content h1 {
+    font-size: 1.5rem;
+    color: #ffd900;
+    transition: color 0.3s;
+  }
+  
+  .card__content:hover h1 {
+    color: #292929;
+  }
+  
