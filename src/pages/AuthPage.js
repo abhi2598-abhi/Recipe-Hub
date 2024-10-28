@@ -11,7 +11,7 @@ import { useForm } from '../shared/hooks/Form-hooks';
 const Auth = () => {
 
     const [isLoginMode, setIsLoginMode] = useState(false); 
-    const [isAdminMode, setIsAdminMode] = useState(true); 
+    const [isAdminMode, setIsAdminMode] = useState(false); 
 
     const [formState, inputHandler, setFormData] = useForm(
         {
